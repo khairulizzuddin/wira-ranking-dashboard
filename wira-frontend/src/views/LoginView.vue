@@ -20,37 +20,33 @@ const authStore = useAuthStore();
 </script>
 
 <style scoped>
-/* Center the login container */
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Full viewport height */
-  background-color: #f3f4f6; /* Light gray background */
+  min-height: 100vh; 
+  background-color: #f3f4f6;
 }
 
-/* Styling for the login box */
 .login-box {
   width: 100%;
   max-width: 400px;
   padding: 2rem;
-  background-color: #ffffff; /* White background */
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Title styling */
 .login-title {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #1f2937; /* Darker gray for text */
+  color: #1f2937; 
 }
 
-/* Error message styling */
 .error-message {
-  color: #ef4444; /* Red for error messages */
+  color: #ef4444;
   text-align: center;
   margin-top: 1rem;
   font-weight: 500;

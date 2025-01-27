@@ -41,19 +41,6 @@ const logout = () => {
   min-height: 100vh;
 }
 
-/* .sidebar {
-  width: 250px;
-  background: white;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-  padding: 1rem;
-} */
-
-/* .sidebar-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-} */
-
 .main-content {
   flex: 1;
   padding: 2rem;

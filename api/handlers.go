@@ -25,7 +25,7 @@ var (
 	redisClient *redis.Client
 )
 
-var jwtSecret = []byte("your-secret-key-here") // Replace with a secure secret
+var jwtSecret = []byte("secret-key")
 
 func init() {
 	// Initialize PostgreSQL

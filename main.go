@@ -17,14 +17,14 @@ import (
 func main() {
 	r := api.NewRouter()
 
-	// CORS Configuration (adjust origins as needed)
+	// CORS Configuration
 	c := cors.New(cors.Options{
 		AllowedOrigins:   []string{"http://localhost:5173"},
 		AllowedMethods:   []string{"GET", "POST", "OPTIONS"},
 		AllowedHeaders:   []string{"Authorization", "Content-Type"},
 		AllowCredentials: true,
 		MaxAge:           300,
-		Debug:            true, // Disable after testing
+		Debug:            true,
 	})
 
 	server := &http.Server{

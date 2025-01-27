@@ -18,16 +18,6 @@
         </tr>
       </tbody>
     </table>
-
-    <!-- <div class="pagination">
-      <button :disabled="currentPage === 1" @click="changePage(currentPage - 1)">
-        Previous
-      </button>
-      <span>Page {{ currentPage }}</span>
-      <button :disabled="rankings.length < limit" @click="changePage(currentPage + 1)">
-        Next
-      </button>
-    </div> -->
   </div>
 </template>
 

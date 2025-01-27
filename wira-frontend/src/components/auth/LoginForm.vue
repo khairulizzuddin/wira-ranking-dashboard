@@ -74,7 +74,7 @@ const handleSubmit = async () => {
 <style scoped>
 .auth-form {
   width: 100%;
-  max-width: 400px; /* Matches the login box width */
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -82,34 +82,31 @@ const handleSubmit = async () => {
   margin-bottom: 1.5rem;
 }
 
-/* Input fields styled to match the login box width */
 .form-input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #d1d5db; /* Light gray border */
+  border: 1px solid #d1d5db; 
   border-radius: 0.375rem;
   font-size: 1rem;
-  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  box-sizing: border-box; 
 }
 
 .form-input:focus {
-  border-color: #3b82f6; /* Blue border on focus */
+  border-color: #3b82f6; 
   outline: none;
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Subtle focus shadow */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
 }
 
 .error-border {
-  border-color: #ef4444; /* Red border for errors */
+  border-color: #ef4444;
 }
 
-/* Error message styling */
 .error-message {
   color: #ef4444;
   font-size: 0.875rem;
   margin-top: 0.25rem;
 }
 
-/* Button styling */
 .primary-button {
   width: 100%;
   padding: 0.75rem;
