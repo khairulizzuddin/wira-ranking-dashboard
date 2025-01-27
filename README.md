@@ -11,9 +11,10 @@
 4. Go to wira frontend :
    - run [ npm install ( For windows ) / sudo npm install ( For MacOS ) ]
    - run [ npm run dev ( For windows ) / sudo npm run dev ( For MacOS ) ]
-5. Can use Postman / Swagger to test the backend API
-6. Go to localhost:5173 to test the frontend side
-7. API endpoint :
+5. - Start redis server ( run redis-server )
+6. Can use Postman / Swagger to test the backend API
+7. Go to localhost:5173 to test the frontend side
+8. API endpoint :
    - "http://localhost:8080/login" for login and 2FA
    - "http://localhost:8080/dashboard?class_id=1&page=1&limit=20" for player's scores ( change the query params )
 
